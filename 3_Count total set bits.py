@@ -1,16 +1,14 @@
-User function Template for python3
-def cal_x(n):
+# User function Template for python3
+ddef cal_x(n):
     x=0
-    while (1<< x) <= n:
+    while ((1<< x) <= n):
         x+=1
     return x-1
     
 def cal_total_bits(n):
-    if n==0:
-        return 0
+    if n<=1:
+        return n
     x=cal_x(n)
-    if (n == (1 << (x + 1)) - 1) :
-        return ((x + 1) * (1 << x))
     msb= x * (1<<(x-1))
     n = n-(1<<x)
     res =  msb + n+1 + cal_total_bits(n)
