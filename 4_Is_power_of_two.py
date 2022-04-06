@@ -10,3 +10,17 @@ class Solution:
         else:
             res=(n & (n-1))
             return True if res==0 else False
+       
+    def isPowerofTwo(self,n):
+            if n==1 or n==2:
+                return True
+            elif n%2 == 0:
+                x=1
+                while x<n:
+                    x= x*2
+                    if x==n:
+                        return True
+                    if x>n:
+                        return False
+            else:
+                return False
