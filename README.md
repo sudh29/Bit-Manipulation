@@ -6,7 +6,7 @@
 
 [2 Bit Difference](2_Bit_Difference.py)
 
-[3 Count total set bits](3_Count total set bits.py)
+[3 Count total set bits](3_Count_total_set_bits.py)
 
 [4 Is power of two](4_Is_power_of_two.py)
 
